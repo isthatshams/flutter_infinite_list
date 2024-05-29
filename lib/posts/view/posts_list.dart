@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_infinite_list/posts/bloc/post_bloc.dart';
-import 'package:flutter_infinite_list/posts/posts.dart';
 import 'package:flutter_infinite_list/posts/widgets/bottom_loader.dart';
 import 'package:flutter_infinite_list/posts/widgets/post_list_item.dart';
 

@@ -10,8 +10,15 @@ class PostListItem extends StatelessWidget {
     final textThem = Theme.of(context).textTheme;
     return Material(
       child: ListTile(
-        leading: Text('${post.id}', style: textThem.bodySmall),
-        title: Text(post.title),
+        leading: Text('${post.id}',
+            style: TextStyle(
+                color: Colors.black,
+                fontSize: 32,
+                fontWeight: FontWeight.bold)),
+        title: Text(
+          post.title,
+          style: TextStyle(color: Colors.grey, fontSize: 24),
+        ),
         isThreeLine: true,
         subtitle: Text(post.body),
         dense: true,
