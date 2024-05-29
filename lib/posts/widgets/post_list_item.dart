@@ -7,7 +7,6 @@ class PostListItem extends StatelessWidget {
   final Post post;
   @override
   Widget build(BuildContext context) {
-    final textThem = Theme.of(context).textTheme;
     return Material(
       child: ListTile(
         leading: Text('${post.id}',

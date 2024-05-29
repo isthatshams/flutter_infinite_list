@@ -1,7 +1,4 @@
 import 'package:bloc/bloc.dart';
-
-import 'package:bloc/bloc.dart';
-
 class SimpleBlocObserver extends BlocObserver {
   const SimpleBlocObserver();
 
